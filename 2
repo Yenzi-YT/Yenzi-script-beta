@@ -1,0 +1,75 @@
+print ("Da Unvirsal hub by Yenzi admimumm")
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Univrsal hub by Yenzi adimmuim",
+   Icon = 0, 
+   LoadingTitle = "Made by Yenzi",
+   LoadingSubtitle = "Have fun",
+   Theme = "Default",
+
+   ToggleUIKeybind = "K", 
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = True, 
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, 
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = True, 
+      Invite = "https://discord.gg/j3atzr5a",
+      RememberJoins = false 
+   },
+
+   KeySystem = True,
+   KeySettings = {
+      Title = "Yenzi Unvirsal hub admin addtion",
+      Subtitle = "Super Da Key System",
+      FileName = "Key", 
+      SaveKey = true, 
+      GrabKeyFromSite = True, 
+      Key = {"SubToYenzi99"} 
+   }
+})
+
+local PlayerTab = Window:CreateTab("Player", 4483362458) 
+
+local Slider = PlayerTab:CreateSlider({
+   Name = "Movement Speed",
+   Range = {1, 1000},
+   Increment = 1,
+   Suffix = "Speed",
+   CurrentValue = 10,
+   Flag = "Slider2", 
+  game.Players.LocalPlayers.Charater:SetAttribute("SpeedMultiplier",Value)
+   end,
+})
+
+local Slider = PlayerTab:CreateSlider({
+   Name = "DashLength",
+   Range = {1, 1000},
+   Increment = 1,
+   Suffix = "Length",
+   CurrentValue = 10,
+   Flag = "Slider2", 
+   Callback = function(Value)
+  game.Players.LocalPlayers.Charater:SetAttribute("DashLength",Value)
+   end,
+})
+
+local Slider = PlayerTab:CreateSlider({       
+   Name = "JumpLength",
+   Range = {1, 1000},
+   Increment = 1,
+   Suffix = "Jump",
+   CurrentValue = 10,
+   Flag = "Slider2", 
+   Callback = function(Value)
+  game.Players.LocalPlayers.Charater:SetAttribute("JumpLength",Value)
+   end,
+})
