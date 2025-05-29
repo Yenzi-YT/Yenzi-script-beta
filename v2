@@ -1,0 +1,2 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yenzi-YT/BETA-v2/d9e8d9e51c176c8f305d68f92423ad2346bdcf02/BETA%20V2")
+local Rayfield = loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/Yenzi-YT/BETA-v2/d9e8d9e51c176c8f305d68f92423ad2346bdcf02/BETA%20V2")
